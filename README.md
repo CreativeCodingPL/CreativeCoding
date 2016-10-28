@@ -1,2 +1,3 @@
-# CreativeCoding
-Materiały z zajęć creative coding
+# Warsztat: Creative Coding.
+
+Materiały z zajęć w epizodach.
