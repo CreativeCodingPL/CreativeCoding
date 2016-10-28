@@ -1,6 +1,9 @@
 # Warsztat: Creative Coding.
 
-Materiały z zajęć w epizodach.
+Celem tych zajęć jest wprowadzenie do Waszego warsztatu nowego rodzaju tworzywa jakim jest kod.
 
-## e01 
-prezentacja - Rozgrzewka, inspiracje, przełamywanie wyuczonej bezrdności :)
+## Dostępne materiały
+
+- Opisy zajęć w odcinkach w zakładce Wiki.
+- Kody programów i inne materiały pomocnicze w zakładce Code.
+
