@@ -1,6 +1,5 @@
-float pozycjaX = 300;
-float pozycjaY = 250;
 float czas = 1000;
+
 void setup()
 {
   size(600,500);
@@ -11,8 +10,8 @@ void setup()
 void draw()
 {
   background(200,80,15);
-  pozycjaX = 600*noise(czas);
-  pozycjaY = 500*noise(czas+100);
+  float pozycjaX = 600*noise(czas);
+  float pozycjaY = 500*noise(czas+100);
   point(pozycjaX, pozycjaY);
   czas = czas+0.01;
 }

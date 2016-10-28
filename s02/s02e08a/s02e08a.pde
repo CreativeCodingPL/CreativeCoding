@@ -1,5 +1,3 @@
-float pozycjaX = 300;
-float pozycjaY = 250;
 float czas = 1000;
 void setup()
 {
