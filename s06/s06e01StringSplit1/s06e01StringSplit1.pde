@@ -1,5 +1,5 @@
 String trumpSpeech = "Thank you. Thank you very much, everyone. Sorry to keep you waiting; complicated business; complicated.";
-String[] lines;
+String[] words;
 PFont font;
 
 void setup(){
@@ -22,7 +22,7 @@ void draw(){
   float prevY = height/2.0;
   float speed = 300.0;
    
-  for( int i = 0; i < lines.length; i ++ ){
+  for( int i = 0; i < words.length; i ++ ){
     
     fill( 0, 80 + noise( frameCount/speed + i ) * 120 );
     
@@ -34,12 +34,12 @@ void draw(){
     float noiseYRemaped = map( noiseY, 0, 1, -1, 1 ); 
     
     textSize( 10 + noiseX * 50 );
-    float txtWidth = textWidth( lines[ i ] );
+    float txtWidth = 1.0;//textWidth( lines[ i ] );
     
     float px = (width/2.0 + noiseXRemaped * spread) - txtWidth/2.0;
     float py = height/2.0 + noiseYRemaped * spread;
     
-    text( lines[ i ], px, py );
+    text( words[ i ], px, py );
     line( prevX, prevY, px, py);
     
     prevX = px;
