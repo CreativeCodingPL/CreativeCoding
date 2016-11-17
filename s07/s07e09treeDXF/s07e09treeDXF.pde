@@ -19,7 +19,6 @@ void draw(){
 
 void drzewo(PVector sek, PVector konar, int poziom){
   PVector nowySek = PVector.add(sek, konar);
-  strokeWeight(ilePoziomow-poziom);
   line(sek.x, sek.y, nowySek.x, nowySek.y);
   poziom++;
   
