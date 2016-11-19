@@ -4,7 +4,7 @@ float kat = radians(30);
 int ilePoziomow = 5;
 
 void setup(){
-  size(700,700, P2D);
+  size(700,700, P3D);
   background(255);
  
   PVector korzen = new PVector(width/2,height);
