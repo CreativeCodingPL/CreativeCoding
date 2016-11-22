@@ -5,6 +5,8 @@ class Particle {
   PVector velocity;
   PVector acceleration;
   float lifespan;
+  color startColor = #F0A61D;
+  color endColor = #1DF0E3;
 
   Particle(PVector l) {
     acceleration = new PVector(0, 0.05);
@@ -21,14 +23,14 @@ class Particle {
   // Method to update position
   void update() {
     velocity.add(acceleration);
-    position.add(velocity);
-    lifespan -= 1.0;
+    if(position.y<height-200) position.add(velocity);
+    lifespan--; 
   }
 
   // Method to display
   void display() {
-    stroke(255, lifespan);
-    fill(255, lifespan);
+    noStroke();
+    fill(lerpColor(startColor, endColor, lifespan/255.0), lifespan);
     ellipse(position.x, position.y, 8, 8);
   }
 

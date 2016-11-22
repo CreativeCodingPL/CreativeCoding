@@ -16,8 +16,8 @@ class Vehicle {
     acceleration = new PVector(0,0);
     velocity = new PVector(0,0);
     location = new PVector(x,y);
-    maxspeed = 4;
-    maxforce = 0.1;
+    maxspeed = 10;
+    maxforce = 0.05;
   }
 
   // Method to update location
@@ -41,14 +41,14 @@ class Vehicle {
   void arrive(PVector target) {
     PVector desired = PVector.sub(target,location);  // A vector pointing from the location to the target
     
-    //float d = desired.mag();
+    float d = desired.mag();
     // Scale with arbitrary damping within 100 pixels
-    //if (d < 100) {
-    //  float m = map(d,0,100,0,maxspeed);
-    //  desired.setMag(m);
-    //} else {
-    //  desired.setMag(maxspeed);
-    //}
+    if (d < 100) {
+      float m = map(d,0,100,0,maxspeed);
+      desired.setMag(m);
+    } else {
+      desired.setMag(maxspeed);
+    }
 
     // Steering = Desired minus Velocity
     PVector steer = PVector.sub(desired,velocity);

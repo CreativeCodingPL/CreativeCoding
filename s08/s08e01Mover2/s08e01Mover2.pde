@@ -1,3 +1,4 @@
+// Based on:
 // The Nature of Code
 // Daniel Shiffman
 // http://natureofcode.com
@@ -12,7 +13,6 @@ void setup() {
   m = new Mover(200,200); 
   m1 = new Mover(100,100); 
   m1.mass = 3;
-  m1.myColor = #00AA44;
 }
 
 void draw() {

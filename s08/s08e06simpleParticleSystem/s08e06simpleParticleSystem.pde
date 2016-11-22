@@ -1,4 +1,5 @@
 /**
+ * Based on:
  * Simple Particle System
  * by Daniel Shiffman.  
  * 
@@ -11,8 +12,8 @@
 ParticleSystem ps;
 
 void setup() {
-  size(640, 360);
-  ps = new ParticleSystem(new PVector(width/2, 50));
+  size(700, 700);
+  ps = new ParticleSystem(new PVector(width/2, 70));
 }
 
 void draw() {

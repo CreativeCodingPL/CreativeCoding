@@ -19,6 +19,8 @@ void draw() {
     jakisMover.changeColor();
     jakisMover.update();
   }
+  fill(0);
+  text(kulki.size(), 10,20);
 }
 
 void mousePressed() {

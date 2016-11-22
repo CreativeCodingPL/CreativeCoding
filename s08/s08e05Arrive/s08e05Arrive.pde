@@ -1,3 +1,4 @@
+// Based on:
 // The Nature of Code
 // Daniel Shiffman
 // http://natureofcode.com
@@ -8,7 +9,7 @@
 Vehicle v;
 
 void setup() {
-  size(640, 360);
+  size(600, 600);
   v = new Vehicle(width/2, height/2);
 }
 

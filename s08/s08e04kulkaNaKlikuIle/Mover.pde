@@ -18,6 +18,10 @@ class Mover {
     myColor = #FFAA11;
   }
   
+  void changeColor() {
+    myColor = color(random(100*velocity.x),random(100*velocity.y),random(10*mass), 150);
+  }
+  
   void applyForce(PVector force) {
     PVector f = PVector.div(force,mass);
     acceleration.add(f);
@@ -27,6 +31,8 @@ class Mover {
     velocity.add(acceleration);
     location.add(velocity);
     acceleration.mult(0);
+    checkEdges();
+    display();
   }
 
   void display() {
@@ -40,14 +46,16 @@ class Mover {
 
     if (location.x > width) {
       location.x = width;
-      velocity.x *= -1;
-    } else if (location.x < 0) {
-      velocity.x *= -1;
+      velocity.x = -velocity.x;
+    } 
+    
+    if (location.x < 0) {
+      velocity.x = -velocity.x;
       location.x = 0;
     }
 
     if (location.y > height) {
-      velocity.y *= -1;
+      velocity.y = -velocity.y;
       location.y = height;
     }
 
