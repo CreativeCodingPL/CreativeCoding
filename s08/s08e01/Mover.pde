@@ -8,12 +8,14 @@ class Mover {
   PVector velocity;
   PVector acceleration;
   float mass;
+  color myColor;
 
-  Mover() {
-    location = new PVector(30,30);
+  Mover(float x, float y) {
+    location = new PVector(x,y);
     velocity = new PVector(0,0);
     acceleration = new PVector(0,0);
     mass = 1;
+    myColor = #FFAA11;
   }
   
   void applyForce(PVector force) {
@@ -30,8 +32,8 @@ class Mover {
   void display() {
     stroke(0);
     strokeWeight(2);
-    fill(127);
-    ellipse(location.x,location.y,48,48);
+    fill(myColor);
+    ellipse(location.x,location.y,48*mass,48*mass);
   }
 
   void checkEdges() {
