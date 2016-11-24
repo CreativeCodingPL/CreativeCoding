@@ -42,30 +42,13 @@ void setup() {
   imageMode(CENTER);
   img = loadImage("logo-cc.png"); 
   image(img, w/2,h/2);
-  if(movieOn);// mm = new MovieMaker(this,width,height,"reaction"+day()+hour()+minute()+second()+".mov",30, MovieMaker.H263, MovieMaker.HIGH);
- 
-  // random to make it 2D otherwise it will just be 1d gradient like
-  //loadPixels();
+  
   for(int i=0;i<w;++i) {
     for(int j=0;j<h;++j) {
       gridU[i][j] = .5+random(-.01,.01);
       gridV[i][j] = .25+random(-.01,.01);
      
   
-/*
-      int loc = i + j*w;
-      if(brightness(pixels[loc])<100){
-      gridU[i][j] = .5+2;//+random(-.01,.01);
-      gridV[i][j] = .5+2;//+random(-.01,.01);
-      } else {
-      gridU[i][j] = .5+random(-.01,.01);
-      gridV[i][j] = .25+random(-.01,.01);
-      }
-      
-      if(brightness(pixels[loc])<100) a=300.0; else a=1.0;
-      gridU[i][j] = .5+random(-.01*a,.01*a);
-      gridV[i][j] = .25+random(-.01*a,.01*a);
-      */
     }
   }
  
@@ -90,9 +73,7 @@ void draw() {
   }
   updatePixels();
  
-  //if (count%2==0) {
-  //  if(movieOn) mm.addFrame();
-  //}
+  
   count++;
 }
  
