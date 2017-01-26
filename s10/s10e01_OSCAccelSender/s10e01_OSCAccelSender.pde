@@ -6,6 +6,12 @@ import netP5.*;
 OscP5 oscP5;
 NetAddress myRemoteLocation;
 
+float accX = 0;
+float accY = 0;
+
+int prevMouseX = 0;
+int prevMouseY = 0;
+
 void setup(){
   
   size( 500, 500 );
@@ -22,15 +28,21 @@ void draw(){
  
   background( #0AFFDC );
   
-  fill( #0A86FF );
-  text( "I'm sending like a pro: \n"+ mouseX + ", " + mouseY , mouseX + 10, mouseY );
+  line( mouseX, mouseY, prevMouseX, prevMouseY );
+  
+  accX = abs( mouseX - prevMouseX );
+  prevMouseX = mouseX;
+  
+  accY = abs( mouseY - prevMouseY );
+  prevMouseY = mouseY;
+  
   
   // --- OSC ---
   
-  OscMessage myMessage = new OscMessage("/mousePos"); // tworzymy message o nazwie "/mousePos"
+  OscMessage myMessage = new OscMessage("/accelerationXY"); // tworzymy message o nazwie "/accelerationXY"
   
-  myMessage.add( mouseX ); // dodajemy do komunikatu pozycje myszki X
-  myMessage.add( mouseY ); // dodajemy do komunikatu pozycje myszki X
+  myMessage.add( accX ); // dodajemy do komunikatu pozycje myszki X
+  myMessage.add( accY ); // dodajemy do komunikatu pozycje myszki Y
   
   oscP5.send(myMessage, myRemoteLocation); // wysyłamy komunikat pod adres zdefiniowany w objekcie myRemoteLocation 
   
