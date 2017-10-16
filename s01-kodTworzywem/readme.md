@@ -7,11 +7,14 @@
 - Kod w sztuce, nauce, designie, społeczeństwie
 
 ## Processing 
-- point, line, ellipse 
-- kolory: RGB, G, #, RGBA
-- stroke, fill, strokeWeight
-- setup, draw, 
+- point, line 
+- kolory: RGB, G, #, RGBA, HSB
+- colorMode
+- stroke, strokeWeight
+- setup, draw, keyPressed
 - mouseX, mouseY
+- saveFrame
+- random
 
 ## Zadanie domowe
 Proszę obejrzeć: http://hello.processing.org
