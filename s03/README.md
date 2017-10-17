@@ -1,3 +1,4 @@
 
-PImage
-noise vs random
+* zmienne
+* PImage
+* noise vs random
