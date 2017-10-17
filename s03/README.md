@@ -1,9 +1,8 @@
 # Koncepty
 * zmienne - powtórka
-* PImage
-* noise vs random
-* pętle?
-* beginShape / endShape?
+* if powtórka
+* keyPressed / mousePressed
+* beginShape / endShape
 
 # Polecana książka
 
