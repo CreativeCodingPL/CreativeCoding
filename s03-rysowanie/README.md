@@ -5,10 +5,10 @@
 - kolory - powtórka
 - if - powtórka
 - zmienne i funkcje keyPressed /mousePressed
-- beginShape, endShape
+- beginShape, endShape, vertex
 
 ## Zadanie domowe
-Narysować pizze
+Narysować pizzę przy pomocy prostych instrukcji kształtów, wypełnień i obrysów
 
 ## Polecana książka
 [Programming Design systems](https://programmingdesignsystems.com/)
