@@ -14,3 +14,4 @@ Wyeksportować pdf, w którym bedzie 5 wektorowych obrazkow o współrzędnych i
 ## Materiały pomocnicze
 - [Eksport do PDF](https://processing.org/reference/libraries/pdf/index.html)
 - [Pętla for](https://www.youtube.com/watch?v=h4ApLHe8tbk)
+- [Operator modulo](https://www.youtube.com/watch?v=r5Iy3v1co0A)
