@@ -1,17 +1,19 @@
-Zegar stary;
-Zegar nowy;
+Zegar[] zegary = new Zegar[20];
 
 void setup() {
   size(500, 500);
-  stary = new Zegar(400, 400, 50, 0.05);
-  nowy = new Zegar(200, 200, 150, 0.04);
+  for(int i=0; i < zegary.length; i++){
+     zegary[i] = new Zegar(random(100,400), random(100,400), random(30, 150), random(0.001, 0.05));
+  }
+  
 }
 
-
 void draw() {
-  background(255);
-  stary.draw();
-  stary.update();
-  nowy.draw();
-  nowy.update();
+  fill(255, 100);
+  noStroke();
+  rect(0,0,width, height);
+  for(Zegar z: zegary) {
+    z.draw();
+    z.update();
+  }
 }
