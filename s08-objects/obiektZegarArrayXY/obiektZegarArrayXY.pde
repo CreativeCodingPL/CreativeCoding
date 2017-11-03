@@ -1,17 +1,17 @@
-int k = 5; //ile kolumn
-int w = 3; //ile wierszy
+int k = 17; //ile kolumn
+int w = 17; //ile wierszy
 Zegar[] zegary = new Zegar[k*w];
 
 void setup() {
-  size(700, 700);
+  size(800, 800);
   for (int x=0; x < k; x++)
     for (int y=0; y < w; y++) {
-      zegary[x*w+y] = new Zegar(width/k+x*width/(k+1), height/w+y*height/(w+1), width/(2*k), random(0.01, 0.05));
+      zegary[x*w+y] = new Zegar(width/k+x*width/(k+1), height/w+y*height/(w+1), width/(2.5*k), random(0.01, 0.05));
     }
 }
 
 void draw() {
-  fill(255, 50);
+  fill(0, 30);
   noStroke();
   rect(0, 0, width, height);
   for (Zegar z : zegary) {

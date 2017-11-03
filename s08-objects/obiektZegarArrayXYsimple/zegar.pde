@@ -25,7 +25,7 @@ class Zegar {
   }
 
   void draw() {
-    stroke(200);
+    stroke(240,240,190);
     strokeWeight(size*0.07);
     line(srodek.x, srodek.y, v1.x, v1.y);
     line(srodek.x, srodek.y, v2.x, v2.y);
