@@ -19,3 +19,6 @@ Zrobić chaos uliczny w swoim stylu przerabiając przykłady z carsObjects.
 - [YouTube: What is Object-Oriented Programming](https://youtu.be/YcbcfkLzgvs)
 - [Arrays of Object](https://youtu.be/-sSRHRfK2EU)
 - [Arrays and Loops](https://youtu.be/am6e1U2BHkA)
+
+## Inspiracje
+- [thedotisblack - Generative art or design made with code (Processing)](https://www.youtube.com/channel/UCX4GSh1gpRuugPpjxu0gLmw)
