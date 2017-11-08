@@ -31,4 +31,3 @@ void draw()
     point(x+5, y+5);
   }
 }
-}
