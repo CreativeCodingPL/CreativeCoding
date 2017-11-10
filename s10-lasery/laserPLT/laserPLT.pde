@@ -1,6 +1,8 @@
 import hpglgraphics.*;
 
-void setup() {
+void setup() 
+{
+  //ten rozmiar musi myc zachowany zeby dzialalo przeliczanie rozmiaru w milimetrach
   size(1104, 772);
 
   stroke(0);
@@ -16,21 +18,24 @@ void setup() {
   canvas.setPath("output.plt");
 
   //to tylko zeby miec obszar odniesienia do rysowania
+  //bo dostaliscie klocki o wymiarze 33mm x 33mm
   float sizeX = mmToHPGL(33);
   float sizeY = mmToHPGL(33);
   rect(0, 0, sizeX, sizeY);
-
-  beginRecord(canvas);
   
-   //tu rysujemy co ma byc wyciete w tym obszarze 
- 
+  beginRecord(canvas);
+
+  //tu rysujemy co ma byc wyciete w tym obszarze 
+
+  ellipse(sizeX/2.0, sizeY/2.0, 101, 100);
+
   endRecord();
 }
 
-
 //to napisal dla was Wieslaw zeby bylo latwiej
 //zamienia milimetry na jednostki lasera
-float mmToHPGL(float mm) {
+float mmToHPGL(float mm) 
+{
   float cale = (mm * 0.1) / 2.54;
   float hpgl = 1016 * cale * 0.1;
   //i jeszcze skala ekranu w tej bibliotece czyli wszysko 10 razy mniejsze
