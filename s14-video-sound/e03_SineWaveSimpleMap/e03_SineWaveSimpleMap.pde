@@ -16,5 +16,4 @@ void setup() {
 
 void draw() {
  falaDzwiekowa.freq(map(mouseX, 0, 300, 200, 1000));
- falaDzwiekowa.freq
 }
