@@ -26,7 +26,7 @@ Jeżeli wolicie, można też nagrać zawartość ekranu i dźwięk za pomocą in
 - [Studio A N F](http://anf.nu)
 - [Generative Art](https://youtu.be/cKzK88y3o1Q)
 - [Casey Reas (współtwórca Processing)](http://www.bitforms.com/artists/reas)
-[Casey Reas - home page (współtwórca Processing)](http://reas.com)
+- [Casey Reas - home page (współtwórca Processing)](http://reas.com)
 - [onformative](http://www.onformative.com/work/actelion-imagery-wizard/)
 - [Quayola](http://www.bitforms.com/artists/quayola)
 - [Quayola - home page](http://www.quayola.com)
