@@ -29,7 +29,7 @@ Jeżeli wolicie, można też nagrać zawartość ekranu i dźwięk za pomocą in
 [Casey Reas - home page (współtwórca Processing)](http://reas.com)
 - [onformative](http://www.onformative.com/work/actelion-imagery-wizard/)
 - [Quayola](http://www.bitforms.com/artists/quayola)
-- [Quayola - home page]http://www.quayola.com)
+- [Quayola - home page](http://www.quayola.com)
 - [Canogar](http://www.bitforms.com/artists/canogar)
 - [OpenProcessing](https://www.openprocessing.org)
 - [Marcin Ignac - home page](http://marcinignac.com)
