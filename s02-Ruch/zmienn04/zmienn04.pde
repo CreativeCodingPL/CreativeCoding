@@ -1,0 +1,14 @@
+size(500, 500);
+strokeWeight(15);
+float licz;
+licz = 1;
+point(50+licz, 250);
+licz = licz + 50;
+point(50+licz, 250);
+licz = licz + 50;
+point(50+licz, 250);
+licz = licz + 50;
+point(50+licz, 250);
+licz = licz + 50;
+point(50+licz, 250);
+licz = licz + 50;
