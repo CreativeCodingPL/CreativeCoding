@@ -3,11 +3,10 @@ PImage grafika;
 void setup() {
   size(500, 500, P2D); //P2D rysowanie z akceleracja grafiki
   grafika = loadImage("lew.jpg");
-  
 }
 
 void draw() { 
-background(0);
+  background(0);
   for (int n = 0; n<mouseX*20; n++) {
     float x = random(500);
     float y = random(500);
