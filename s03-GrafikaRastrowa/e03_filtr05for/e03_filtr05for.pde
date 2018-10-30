@@ -7,14 +7,13 @@ void setup() {
 }
 
 void draw() {
-  int n = 0;
-  while (n<1000) {
+  
+  for (int n = 0; n<1000; n++) {
     float x = random(500);
     float y = random(500);
     color podKursorem = grafika.get(round(x), round(y));
     stroke(podKursorem, 150);
     strokeWeight(mouseX/10);
     point(x, y);
-    n++; //n = n + 1;
   }
 }
