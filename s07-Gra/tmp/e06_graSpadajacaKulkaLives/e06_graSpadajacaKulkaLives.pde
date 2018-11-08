@@ -3,6 +3,8 @@ float ball_1_y = 0;
 
 int score = 0;
 int lives = 3;
+float hitSize = 50;
+
 
 void setup(){
   size( 800, 600 );
@@ -13,10 +15,10 @@ void draw(){
   
   background(0);
   
-  if( dist( mouseX, 550, ball_1_x, ball_1_y ) > 10 ){
+  if( dist( mouseX, 550, ball_1_x, ball_1_y ) > hitSize/2  ){
     
     fill(255);
-    rect( mouseX, 550, 50, 20 );
+    ellipse( mouseX, 550, hitSize, hitSize );
   
     fill(#E80093);
     ellipse( ball_1_x, ball_1_y, 10, 10 );
@@ -27,7 +29,7 @@ void draw(){
   }else{
     
     fill( #00E2E8 );
-    rect( mouseX, 550, 50, 20 );
+    ellipse( mouseX, 550, hitSize, hitSize );
     
     ball_1_y = 0;
     ball_1_x = random( 10, 700 );
@@ -40,11 +42,10 @@ void draw(){
   
   if( ball_1_y > height ){
   
-   lives = lives - 1;
+   lives--; // to samo co -> lives = lives - 1;
    ball_1_y = 0;
    ball_1_x = random( 10, 700 );
-   println( "booo... " + lives ); 
-    
+ 
   }
   
   textSize( 20 );

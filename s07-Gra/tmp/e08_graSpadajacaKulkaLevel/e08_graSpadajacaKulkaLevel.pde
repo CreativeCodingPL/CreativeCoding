@@ -22,7 +22,8 @@ void draw(){
     fill(#E80093);
     ellipse( ball_1_x, ball_1_y, 10, 10 );
     
-    ball_1_y = ball_1_y + ball_1_speed; //zwiekszamy pozycje y kulki w każdej klatce
+    //ball_1_y = ball_1_y + ball_1_speed; //zwiekszamy pozycje y kulki w każdej klatce
+    ball_1_y += ball_1_speed;
     
     
   }else{
@@ -35,17 +36,16 @@ void draw(){
     
     score = score + 1; // score += 1 lub score++ 
     ball_1_speed += 2;
-    println( score );
+    //println( score );
     
     
   }
   
   if( ball_1_y > height ){
   
-   lives = lives - 1;
+   lives--;
    ball_1_y = 0;
-   ball_1_x = random( 10, 700 );
-   println( "booo... " + lives ); 
+   ball_1_x = random( 10, 700 ); 
     
   }
   
