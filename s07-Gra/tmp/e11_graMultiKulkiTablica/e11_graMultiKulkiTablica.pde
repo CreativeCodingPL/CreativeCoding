@@ -1,6 +1,7 @@
-float ballsX[] = {100,200};
-float ballsY[] = {0,0};
-float balls_speed[] = {2.0,3.0};
+float ballsX[] = {100,200,300,400};
+float ballsY[] = {0,0,0,0};
+float balls_speed[] = {2.0,3.0,2.0,4.0};
+boolean ballsType[] = {true,true,false,true};
 
 int score = 0;
 int lives = 3;
@@ -22,9 +23,16 @@ void draw(){
       
         fill(255);
         rect( mouseX, 550, 50, 20 );
-    
-        fill(#E80093);
+        
+        if( ballsType[i] == true ){
+          fill(#E80093);
         ellipse( ballsX[i], ballsY[i], 10, 10 );
+        }else{
+          fill(#F2E700);
+        ellipse( ballsX[i], ballsY[i], 10, 10 );
+        }
+        
+        
    
         ballsY[i] += balls_speed[i];
       
