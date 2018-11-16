@@ -24,7 +24,18 @@ void setup(){
 
 void draw(){
   
-  background(0);
+  float p = map( sin( millis() / 1000.0 ), -1, 1, 0, 1 );
+  //color bgColor = lerpColor( #FF0000, #00FF00, p );
+  
+  color bgColor;
+  
+  if( p > 0.5 ){
+    bgColor = #FF0000;
+  }else{
+    bgColor = #00FF00;
+  }
+  
+  background( bgColor );
   
   for( int i = 0; i < iloscBlobow; i ++ ){
     

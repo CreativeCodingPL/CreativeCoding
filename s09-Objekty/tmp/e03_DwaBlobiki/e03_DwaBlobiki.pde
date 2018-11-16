@@ -15,6 +15,8 @@ void draw(){
   
   background(0);
   
+  mojBlobikJanusz.posX = mouseX;
+  
   mojBlobikJanusz.draw(); // rysyujemy Janusza
   mojBlobikGrazyna.draw(); // ...oraz Grazynę
   

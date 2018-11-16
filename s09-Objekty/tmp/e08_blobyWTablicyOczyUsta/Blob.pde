@@ -10,6 +10,8 @@ class Blob { // deklaraja klasy
   
   boolean mouthOpened = false;
   
+  float mouseDist = 0;
+  
   Blob( int x, int y, int p ){ // tzw. konstruktor klasy - terasz przyjmuje parametry / argumenty
     posX = x; // przypisanie wartosci x do wlasciwosci posX
     posY = y;
@@ -33,6 +35,14 @@ class Blob { // deklaraja klasy
     drawBody(); // elegencko pakujemy w oddzielne metody :)
     drawEyes();
     
+    mouseDist = dist( posX, posY, mouseX, mouseY );
+    
+    if( mouseDist < 100 ){
+      mouthOpened = true;
+    }else{
+      mouthOpened = false;
+    }
+    
     if( mouthOpened ){
       drawMouthOpened();
     }else{
@@ -46,15 +56,18 @@ class Blob { // deklaraja klasy
   void drawBody(){
     noStroke();
     fill( myColor ); // używamy wlasciwosci myColor
-    ellipse( posX, posY, 200, 200 ); // obiekt pamieta wartosci posX i posY zdefiniowane na etapie tworzenia
+    
+    float val = sin( millis() );
+    
+    ellipse( posX, posY, val, val ); // obiekt pamieta wartosci posX i posY zdefiniowane na etapie tworzenia
     
   }
   
   void drawEyes(){
     fill( #FFFFFF );
     
-    float d = dist( posX, posY, mouseX, mouseY );
-    float eyeSize = map( d, 0, 1000, 30, 5 ); 
+    
+    float eyeSize = map( mouseDist, 0, 1000, 30, 5 ); 
     
     ellipse( posX - 30, posY, eyeSize, eyeSize );
     ellipse( posX + 30, posY, eyeSize, eyeSize );
