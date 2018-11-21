@@ -1,4 +1,4 @@
-# Sezon 03 - Grafika rastrowa
+# Sezon 10 :: Lasery 💥
 
 ## Processing
 - biblioteka HPGLGraphics - This library implements HPGL (Hewlett-Packard Graphics Language) file creation from Processing sketches. It works in much the same way as the PDF Export and DXF Export libraries bundled with Processing.
