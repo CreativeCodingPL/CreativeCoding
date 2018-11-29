@@ -12,10 +12,10 @@ void setup() {
   size(400,400);
   oscP5 = new OscP5(this, 12000);
   myRemoteLocation = new NetAddress("192.168.0.128", 12000);
+  background(255);
 }
 
 void draw() {
-  //background(0);
   fill(c);
   ellipse(x, y, 10, 10);
 }
