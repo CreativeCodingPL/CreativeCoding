@@ -1,4 +1,4 @@
-# Sezon 09 - objekty
+# Sezon 09 - Obiekty
 
 ## Processing
 - class NazwaKlasy {}
