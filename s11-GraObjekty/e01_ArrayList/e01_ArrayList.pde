@@ -29,7 +29,7 @@ void draw(){
 void mousePressed(){
   
   PVector newParticle = new PVector( mouseX, mouseY );
-  particles.add( newParticle );
+  particles.add( newParticle ); 
   
 }
 
