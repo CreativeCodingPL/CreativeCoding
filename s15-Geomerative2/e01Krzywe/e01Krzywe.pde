@@ -32,7 +32,7 @@ void draw() {
     
     RPath[] paths = napis.children[j].paths;
     
-    for (int i = 0; i< paths.length; i++) {
+    for(int i = 0; i< paths.length; i++) {
       RPoint p = paths[i].getPoint( map( mouseX, 0, width, 0, 1 ) );
       ellipse( p.x, p.y, 10, 10 );
     }

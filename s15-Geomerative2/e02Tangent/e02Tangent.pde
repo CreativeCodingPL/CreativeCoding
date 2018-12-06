@@ -39,7 +39,7 @@ void draw() {
       RPoint p = paths[i].getPoint( pos );
       RPoint t = paths[i].getTangent( pos );
       
-      float angle = atan2(t.y, t.x); //+ PI/2;
+      float angle = atan2(t.y, t.x) + PI/2;
       float p2X = 50 * cos(angle);
       float p2Y = 50 * sin(angle);
       
