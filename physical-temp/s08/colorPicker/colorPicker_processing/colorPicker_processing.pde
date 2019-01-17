@@ -26,10 +26,24 @@ void draw(){
   fill( c );
   ellipse( mouseX, mouseY, 20, 20 );
   
-  println( red(c), green(c), blue(c) );
+  //println( red(c), green(c), blue(c) );
   
   String colorData = "LED " + red(c) + " " + green(c) + " " + blue(c) + "\r\n";
   
+  println( colorData );
+  
   myPort.write( colorData );
+  
+}
+
+void mousePressed(){
+  
+  myPort.write( "OFF" + "\r\n" );
+  
+}
+
+void mouseReleased(){
+  
+  myPort.write( "ON" + "\r\n" );
   
 }
