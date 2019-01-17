@@ -30,8 +30,8 @@ void draw(){
   
   background( 0 );
  
-  sx = map( jx, 0, 1024, -2.5, 2.5 );
-  sy = map( jy, 0, 1024, -2.5, 2.5 );
+  sx = map( jx, 0, 1024, 2.5, -2.5 );
+  sy = map( jy, 0, 1024, 2.5, -2.5 );
   
   px += sx;
   py += sy;
@@ -48,10 +48,13 @@ void serialEvent(Serial port) {
   
   //println( port.readString() );
   
-  String[] data = splitTokens( port.readString(), "," );
-  jx = int(data[0]);
-  jy = int(data[1]);
-  jb = int(data[2]);
+  String s = port.readString();
+  if( s != null ){
+    String[] data = splitTokens( s, "," );
+    jx = int(data[0]);
+    jy = int(data[1]);
+    jb = int(trim(data[2]));
+  }
   
   println( jx, jy, jb );
  

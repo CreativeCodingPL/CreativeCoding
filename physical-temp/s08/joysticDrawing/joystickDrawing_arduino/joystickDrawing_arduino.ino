@@ -8,14 +8,14 @@ void loop() {
   
   int x = analogRead(0);
   int y = analogRead(1);
-  bool s = analogRead(2) < 10;
+  bool s = analogRead(2) < 20;
 
   Serial.print(x);
   Serial.print(",");
   Serial.print(y);
   Serial.print(",");
-  Serial.print(s);
-  Serial.print(",");
-  Serial.println();
+  Serial.println(s);
+  //Serial.print(",");
+  //Serial.println();
   
 }
