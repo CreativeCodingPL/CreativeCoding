@@ -48,12 +48,12 @@ void serialEvent(Serial port) {
   
   //println( port.readString() );
   
-  String s = port.readString();
+  String s = trim(port.readString());
   if( s != null ){
     String[] data = splitTokens( s, "," );
     jx = int(data[0]);
     jy = int(data[1]);
-    jb = int(trim(data[2]));
+    jb = int(data[2]);
   }
   
   println( jx, jy, jb );
