@@ -1,4 +1,5 @@
 PImage dziura;
+float t = 1000;
 
 void settings() {
   dziura = loadImage("czarna.png");
@@ -16,7 +17,8 @@ void draw() {
     for (int j = 0; j<dziura.height; j+=20) { 
       color c = dziura.get(i, j);
       stroke(c);
-      line(i-10, j+10, i, j);
+      line(i-10*noise(t), j+10*noise(t), i, j);
     }
+    t = t+ 0.1;
   }
 }

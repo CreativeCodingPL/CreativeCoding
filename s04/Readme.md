@@ -21,4 +21,8 @@
 Proszę zrobić kod przetwarzający obraz z pliku png, jpg lub tiff.  
 
 ## Materiały pomocnicze
-- 
+- Images and Pixels
+https://processing.org/tutorials/pixels/
+- Noise i ruch browna
+http://natureofcode.com/book/introduction/
+https://vimeo.com/58492076
