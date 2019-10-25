@@ -46,10 +46,10 @@ Powtórzyć wszystkie instrukcje
 - [Dokumentacja Processing](https://processing.org/reference)
 
 ## Ekrany
-### przezroczystość RGBA - fill(R, G, B, A)
+przezroczystość RGBA `fill(R, G, B, A)`
 ![](przezroczystosc.png)
-### rysowanie mouseX, mouseY, pmouseX, pmouseY
+rysowanie `mouseX, mouseY, pmouseX, pmouseY` oraz `random()`
 ![](rysowanie.png)
-### szum = noise(frameCount/10.0)
+```Processing szum = noise(frameCount/10.0);```
 ![](rysowanie_noise.png)
 
