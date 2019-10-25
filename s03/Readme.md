@@ -17,7 +17,7 @@ if(mouseX > 250) strokeWeight(30); //zmienia grubość obrysu
 
 ![Dodanie biblioteki](add_library.png)
 
-Wybranie biblioteki do dodania np. Export Video
+Wybranie biblioteki do dodania np. Video Export
 
 ![Dodanie biblioteki](libraries.png)
 
