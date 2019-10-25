@@ -1,12 +1,31 @@
 # Sezon 02 - Podstawy
 
 ## Processing
-- background(), fill() i stroke()
 - przezroczystość
-- setup() i draw()
-- `mousePressed()` i `keyPressed()`
-- zmienne
-- typy: float, int i void
+```Processing
+background(255); //zamazanie całego ekranu kolorem 255 (biały)
+fill(100,23,15,30); //ostatnia liczba to przezroczystość
+stroke(120); //kolor pisaka szary
+```
+- ```Processing
+void setup() 
+{
+  //tu piszemy co ma być raz na starcie programu
+}
+void draw() {
+  //tu co ma się powtarzać z prędkością frameRate
+}
+```
+- ```Processing
+void mousePressed() { //tu co ma się stać jak naciśniety klawisz myszy }
+void keyPressed() {…}
+```
+- zmienne 
+```Processing
+int pozycjaX = 250;
+float waga = 15.3; 
+```
+- typy: `float` `int` `void`
 - round(), floor(), ceil()
 - lerpColor()
 - saveFrame()
