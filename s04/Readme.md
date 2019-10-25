@@ -29,3 +29,16 @@ https://processing.org/tutorials/pixels/
 - Noise i ruch browna
 http://natureofcode.com/book/introduction/
 https://vimeo.com/58492076
+
+## Kluczowe ekrany 
+### Ruch generowany przez noise() zamknięty w kwadracie
+![](ruchBrowna05noiseCzyliPlynnie3D.png)
+
+### Nakładanie efektu na grafikę for(){for()} i random(,) oraz point(,)
+![]()
+
+### Nakładanie efektu na grafikę for(){for()} i random(,) oraz line(,,,)
+![](grafikaRastrowa02Efekty07v03.png)
+
+### Nakładanie efektu na grafikę for(){for()} i noise(,) 2d
+![](grafikaRastrowa02Efekty07v04WOW.png)
