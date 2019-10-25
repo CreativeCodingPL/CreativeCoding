@@ -7,8 +7,12 @@
 - Kod w sztuce, nauce, designie, społeczeństwie
 
 ## Processing 
-- point
-- stroke, strokeWeight
+- punkty, kolor i grubość obrysu
+```Processing
+stroke(150); //kolor obrysu
+strokeWeight(15); //grubość obrysu
+point(50,70); //punkt w kolumnie 50 i wierszu 70
+```
 
 ## Zadanie domowe
 Proszę obejrzeć: http://hello.processing.org
@@ -18,3 +22,8 @@ Proszę obejrzeć: http://hello.processing.org
 https://processing.org/tutorials/color/
 - Coordinate System and Shapes
 https://processing.org/tutorials/drawing/
+
+## Ekrany
+
+Mój pierwszy piksel `point(50, 50);`
+![pierwszy piksel](e01_mojPierwszyPixel.png)
