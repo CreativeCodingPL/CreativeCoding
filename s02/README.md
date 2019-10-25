@@ -4,7 +4,7 @@
 - background(), fill() i stroke()
 - przezroczystość
 - setup() i draw()
-- mousePressed() i keyPressed()
+- `mousePressed()` i `keyPressed()`
 - zmienne
 - typy: float, int i void
 - round(), floor(), ceil()
