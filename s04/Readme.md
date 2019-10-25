@@ -1,14 +1,17 @@
 # Sezon 04 
+- fullScreen() - bez okna na całym ekranie
+- width, height - wymiary okna
 - random powtórka
 - saveFrame powtórka
 - Tools -> Movie Maker - Tworzenie wideo z klatek animacji
-- typy zmiennych int, Pimage
+- typy zmiennych int, PImage
 - if powtórka
 - for - pętla, powtarzanie określoną liczę razy, zagnieżdżanie czyli pętle w pętli
 - for for - czyli pętla w pętli - grafika w dwóch wymiarach
 - noise powtórka 
 - ruch browna 
-- PImage - jak ładować pliki graficzne
+- loadImage() - jak ładować pliki graficzne
+- “czarna dziura.jpg” - String czyli dowolny ciąg znaków np. Nazwa pliku
 - image() - rysowanie grafiki
 - image jako obiekt i rozmawianie przez kropkę np. dziura.width
 - get() pobieranie koloru konkretnego piksela
