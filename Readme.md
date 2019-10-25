@@ -15,4 +15,4 @@ Opowiemy o emergencji, chaosie, symulowaniu procesów społecznych, interaktywne
 
 ## [Wykład wprowadzający](https://github.com/CreativeCodingPL/CreativeCoding/blob/2018/s01-kodTworzywem/CC%20wprowadenie.pdf)
 
-## [Manifest “Materia kodu”](Materia_Kodu.pdf);
+## [Manifest “Materia kodu”](Materia_Kodu.pdf)
