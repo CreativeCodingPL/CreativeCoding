@@ -35,7 +35,7 @@ https://vimeo.com/58492076
 ![](ruchBrowna05noiseCzyliPlynnie3D.png)
 
 ### Nakładanie efektu na grafikę for(){for()} i random(,) oraz point(,)
-![]()
+![](grafikaRastrowa02Efekty01.png)
 
 ### Nakładanie efektu na grafikę for(){for()} i random(,) oraz line(,,,)
 ![](grafikaRastrowa02Efekty07v03.png)
