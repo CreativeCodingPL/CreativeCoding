@@ -22,10 +22,10 @@ Powtórzyć wszystkie instrukcje
 - [Dokumentacja Processing](https://processing.org/reference)
 
 ## Ekrany
-![](przezroczystosc.png)
 ### przezroczystość RGBA - fill(R, G, B, A)
-![](rysowanie)
+![](przezroczystosc.png)
 ### rysowanie mouseX, mouseY, pmouseX, pmouseY
-![](rysowanie_noise.png)
+![](rysowanie.png)
 ### szum = noise(frameCount/10.0)
+![](rysowanie_noise.png)
 
