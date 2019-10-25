@@ -26,4 +26,5 @@ https://processing.org/tutorials/drawing/
 ## Ekrany
 
 Mój pierwszy piksel `point(50, 50);`
+
 ![pierwszy piksel](e01_mojPierwszyPixel.png)
