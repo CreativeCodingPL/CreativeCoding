@@ -50,6 +50,8 @@ przezroczystość RGBA `fill(R, G, B, A)`
 ![](przezroczystosc.png)
 rysowanie `mouseX, mouseY, pmouseX, pmouseY` oraz `random()`
 ![](rysowanie.png)
-```Processing szum = noise(frameCount/10.0);```
+```Processing 
+szum = noise(frameCount/10.0);
+```
 ![](rysowanie_noise.png)
 
