@@ -20,8 +20,8 @@ void draw()
 ```
 - Reakcja na klikanie myszą i wciskanie klawiszy
 ```Processing
-void mousePressed() { //tu co ma się stać jak naciśniemy klawisz myszy }
-void keyPressed() {…}
+void mousePressed() { //tu co ma się stać kiedy naciśniemy klawisz myszy }
+void keyPressed() {//tu co ma się stać kiedy naciśniemy dowolny klawisz }
 ```
 - zmienne, czyli jak tworzyć pudełka do przechowywania zmieniających się wartości. 
 ```Processing
