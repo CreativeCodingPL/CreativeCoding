@@ -15,5 +15,6 @@ Rysowanie przez odbijanie. Zmodyfikujcie przykład odbijaczXYwzor
 https://processing.org/tutorials/interactivity/
 - Coordinate System and Shapes
 https://processing.org/tutorials/drawing/
-
+- Variables
+https://youtu.be/B-ycSR3ntik
 
