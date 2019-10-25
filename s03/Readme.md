@@ -4,8 +4,10 @@
 - Typ zmiennych `float`
 - Warunkowe wykonywanie instrukcji
 
-```Procesing
-if(mouseX > 250) strokeWeight(30); //zmienia grubość obrysu na 30 jeżeli pozycja myszy w poziomie przekroczy 250
+```Processing
+if(mouseX > 250) strokeWeight(30); //zmienia grubość obrysu 
+                                   //na 30, jeżeli pozycja myszy
+                                   //w poziomie przekroczy 250
 ```
   
 - `colorMode(HSB);` zmienia tryb kolorów na Hue, Saturation, Brightness 
