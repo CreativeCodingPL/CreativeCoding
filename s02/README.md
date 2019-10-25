@@ -47,11 +47,13 @@ Powtórzyć wszystkie instrukcje
 
 ## Ekrany
 przezroczystość RGBA `fill(R, G, B, A)`
-![](przezroczystosc.png)
+![przezroczystość](przezroczystosc.png)
 rysowanie `mouseX, mouseY, pmouseX, pmouseY` oraz `random()`
-![](rysowanie.png)
+![rysowanie](rysowanie.png)
+
 ```Processing 
 szum = noise(frameCount/10.0);
 ```
-![](rysowanie_noise.png)
+
+![szum](rysowanie_noise.png)
 
