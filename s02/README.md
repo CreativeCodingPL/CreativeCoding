@@ -1,31 +1,36 @@
 # Sezon 02 - Podstawy
 
 ## Processing
-- przezroczystość
+- kolor tłą, obrysu oraz przezroczystość
 ```Processing
 background(255); //zamazanie całego ekranu kolorem 255 (biały)
 fill(100,23,15,30); //ostatnia liczba to przezroczystość
-stroke(120); //kolor pisaka szary
+stroke(120); //kolor obrysu szary
 ```
-- ```Processing
+- Co zrobić żeby mieć ruchomy obraz
+```Processing
 void setup() 
 {
   //tu piszemy co ma być raz na starcie programu
 }
-void draw() {
+void draw() 
+{
   //tu co ma się powtarzać z prędkością frameRate
 }
 ```
-- ```Processing
-void mousePressed() { //tu co ma się stać jak naciśniety klawisz myszy }
+- Reakcja na klikanie myszą i wciskanie klawiszy
+```Processing
+void mousePressed() { //tu co ma się stać jak naciśniemy klawisz myszy }
 void keyPressed() {…}
 ```
-- zmienne 
+- zmienne, czyli jak tworzyć pudełka do przechowywania zmieniających się wartości. 
 ```Processing
 int pozycjaX = 250;
 float waga = 15.3; 
+pozycjaX = pozycjaX + 1; //zwiększenie pozycji X o jeden
+waga = waga * 1.5; //przeskalowanie wagi o półtora.
 ```
-- typy: `float` `int` `void`
+- typy: `float` `int` `void` 
 - round(), floor(), ceil()
 - lerpColor()
 - saveFrame()
