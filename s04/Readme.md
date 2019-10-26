@@ -2,10 +2,10 @@
 - `fullScreen();` bez okna na całym ekranie
 - `width`, `height` wymiary okna lub ekranu
 - Losowość powtórka
-- ‘saveFrame()’ powtórka
+- `saveFrame()` powtórka
 - **Tools > Movie Maker** tworzenie wideo z klatek animacji
 - Typy zmiennych `int`, `PImage`
-- Wykonanie warunkowe powtórka ‘if’
+- Wykonanie warunkowe powtórka `if`
 - Pętla, czyli powtarzanie określoną liczbę razy
 
 ```Processing
@@ -26,7 +26,7 @@ for(int i = 0; i < width; i+=20)
 - Noise powtórka 
 - Ruch browna 
 - `loadImage();` ładowanie plikiu graficznego do zmiennej typu `PImage`
-- `“czarna dziura.jpg”` `String` czyli dowolny ciąg znaków np. nazwa pliku
+- `“czarna dziura.jpg”` to jest `String` czyli dowolny ciąg znaków np. nazwa pliku
 - `image()` rysowanie grafiki
 - PImage to obiekt, można z nim rozmawiać przez kropkę np. `dziura.width` pyta obraz czarnej dziury jaką ma szerokość
 - `get(,);` pobieranie koloru konkretnego piksela
