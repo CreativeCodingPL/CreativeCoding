@@ -35,7 +35,7 @@ for(int i = 0; i < width; i+=20)
 - `constrain(,,);` ograniczanie wartości do zakresu
 
 ## Zadanie domowe
-Proszę zrobić kod przetwarzający obraz z pliku `.png`, `.jpg` lub `.tiff`. Preferowany kod nakładający na wgrany obraz dynamiczną strukturę. Dobrą inspiracją może być przykład `e21_grafikaRastrowa02Efekty07v04WOW` albo `e20_grafikaRastrowa02Efekty07v03`.  
+Proszę zrobić kod przetwarzający obraz z pliku `.png`, `.jpg` lub `.tiff`. Preferowany kod nakładający na wgrany obraz dynamiczną strukturę. Dobrą inspiracją może być przykład [`e21_grafikaRastrowa02Efekty07v04WOW`](https://github.com/CreativeCodingPL/CreativeCoding/blob/2019/s04/e21_grafikaRastrowa02Efekty07v04WOW/e21_grafikaRastrowa02Efekty07v04WOW.pde).
 
 ## Materiały pomocnicze
 - Images and Pixels
