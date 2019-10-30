@@ -1,4 +1,4 @@
-# Sezon 04 
+# Sezon 04 - pętle i obrazy
 - `fullScreen();` bez okna na całym ekranie
 - `width`, `height` wymiary okna lub ekranu
 - Losowość powtórka
@@ -24,6 +24,7 @@ for(int i = 0; i < width; i+=20)
 ```
 
 - Noise powtórka 
+- `i++` zwiększanie wartości zmiennej o jeden 
 - Ruch browna 
 - `loadImage();` ładowanie plikiu graficznego do zmiennej typu `PImage`
 - `“czarna dziura.jpg”` to jest `String` czyli dowolny ciąg znaków np. nazwa pliku
@@ -31,6 +32,7 @@ for(int i = 0; i < width; i+=20)
 - PImage to obiekt, można z nim rozmawiać przez kropkę np. `dziura.width` pyta obraz czarnej dziury jaką ma szerokość
 - `get(,);` pobieranie koloru konkretnego piksela
 - `settings()` czyli jak ustawić rozmiary okna na postawie zmiennych
+- `color` typ zmiennej do przechowywania koloru
 - `map(,,,);` mapowanie zakresu wartości na inny zakres wartości
 - `constrain(,,);` ograniczanie wartości do zakresu
 
@@ -38,11 +40,11 @@ for(int i = 0; i < width; i+=20)
 Proszę zrobić kod przetwarzający obraz z pliku `.png`, `.jpg` lub `.tiff`. Preferowany kod nakładający na wgrany obraz dynamiczną strukturę. Dobrą inspiracją może być przykład [`e21_grafikaRastrowa02Efekty07v04WOW`](https://github.com/CreativeCodingPL/CreativeCoding/blob/2019/s04/e21_grafikaRastrowa02Efekty07v04WOW/e21_grafikaRastrowa02Efekty07v04WOW.pde).
 
 ## Materiały pomocnicze
-- Images and Pixels
-https://processing.org/tutorials/pixels/
-- Noise i ruch browna
-http://natureofcode.com/book/introduction/
-https://vimeo.com/58492076
+- [For Loop - Processing Tutorial](https://youtu.be/h4ApLHe8tbk)
+- [If, Else If, Else - Processing Tutorial](https://youtu.be/mVq7Ms01RjA)
+- [Images and Pixels](https://processing.org/tutorials/pixels/)
+- [Noise i ruch browna - book](http://natureofcode.com/book/introduction/)
+- [Noise i ruch browna - wiedo](https://vimeo.com/58492076)
 
 ## Ekrany 
 
