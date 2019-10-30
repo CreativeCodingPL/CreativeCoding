@@ -15,7 +15,7 @@ pixels[i-1] = c;
 ```
 
 - `int()` - czyli zamiana na liczbę całkowitą np. `3.7` zamieni na `3`.
-- Sortowanie pikseli, czyli układanie pikseli w obrazie w innej kolejności niż oryginalna.
+- Sortowanie pikseli, czyli układanie pikseli w obrazie w innej kolejności niż oryginalna. Tu np. zamiana miejscami sąsiednich pikseli
 
 ```Processing
   peppa.loadPixels();
