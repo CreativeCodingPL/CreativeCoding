@@ -34,7 +34,9 @@ Bakteria[] bakterie = new Bakteria[100];
 Zmienić wygląd bakterii na bardziej “odpowiedni”.
 
 ## Materiały dodatkowe
-class: https://processing.org/reference/class.html
+
+**class:**
+- https://processing.org/reference/class.html
 
 **object:**
 - https://processing.org/reference/Object.html
