@@ -35,9 +35,11 @@ Zmienić wygląd bakterii na bardziej “odpowiedni”.
 
 ## Materiały dodatkowe
 class: https://processing.org/reference/class.html
+
 **object:**
 - https://processing.org/reference/Object.html
 - https://processing.org/examples/objects.html
+
 **tutoriale:**
 - [Defining a Class Part I](https://youtu.be/lmgcMPRa1qw)
 - [Defining a Class Part II](https://youtu.be/XwfOVFelLoo)
