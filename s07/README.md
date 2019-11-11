@@ -10,8 +10,7 @@
 **Klasy i obiekty, czyli tworzenie własnych światów w kodzie**
 - Definiowanie klasy np.:
 ```Processing
-class Bakteria { 
-	//tu co składa się na klasę
+class Bakteria { //tu co składa się na klasę
   //atrybuty
   int wiek
   //metody
