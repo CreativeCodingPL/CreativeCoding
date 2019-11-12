@@ -4,7 +4,30 @@
 
 - **Tworzenie struktury kodu za pomocą funkcji**, 
 na przykładzie konstruowania twarzy z obrysu, oczu i uszu. Tworzenie kodu za pomocą mniejszych kawałków (własnych poleceń /  instrukcji / funkcji) ułatwia tworzenie złożonych lub rozbudowanych struktur, oraz ułatwia późniejsze rozumienie wcześniej napisanego kodu.
-````Processing
+```Processing
+void obrysTwarzy() {
+   ellipse();
+   uszy();
+}
+void oko() {
+   ellipse();
+   ellipse();
+}
+void oczy() {
+   oko();
+   oko();
+}
+void ucho() {
+   rect();
+}
+void uszy() {
+   ucho();
+   ucho();
+}
+void twarz() {
+  obrysTwarzy();
+  oczy();
+}
 ``` 
 - **PVector** czyli wektory w Processing 
 - ```//Nowy wektor długości 1 pod kątem 45 stopni
@@ -14,7 +37,7 @@ PVector v = PVector.fromAngle(radians(45));```
 - `v.mult(30);`
 - `v.div(3);`
 - `v.rotate();`
-- v.x, v.y
+- `v.x, v.y`
 - **Rekurencja** jako sposób na tworzenie struktur samo-osobnych przypominających fraktale.
 - Jak działa wywołanie rekurencyjne na prostym przykładzie koła w kole, a potem w stronę fraktali (koła z kołami w kołach - WOW!).
 ```Processing
