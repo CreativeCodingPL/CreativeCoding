@@ -5,28 +5,28 @@
 - **Tworzenie struktury kodu za pomocą funkcji**, 
 na przykładzie konstruowania twarzy z obrysu, oczu i uszu. Tworzenie kodu za pomocą mniejszych kawałków (własnych poleceń /  instrukcji / funkcji) ułatwia tworzenie złożonych lub rozbudowanych struktur, oraz ułatwia późniejsze rozumienie wcześniej napisanego kodu.
 ```Processing
-void obrysTwarzy() {
-   ellipse();
-   uszy();
+void obrysTwarzy(…) {
+   ellipse(…);
+   uszy(…);
 }
-void oko() {
-   ellipse();
-   ellipse();
+void oko(…) {
+   ellipse(…);
+   ellipse(…);
 }
-void oczy() {
-   oko();
-   oko();
+void oczy(…) {
+   oko(…);
+   oko(…);
 }
-void ucho() {
-   rect();
+void ucho(…) {
+   rect(…);
 }
-void uszy() {
-   ucho();
-   ucho();
+void uszy(…) {
+   ucho(…);
+   ucho(…);
 }
-void twarz() {
-  obrysTwarzy();
-  oczy();
+void twarz(…) {
+  obrysTwarzy(…);
+  oczy(…);
 }
 ``` 
 - **PVector** czyli wektory w Processing 
