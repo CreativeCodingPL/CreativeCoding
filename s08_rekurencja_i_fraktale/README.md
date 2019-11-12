@@ -35,12 +35,12 @@ void twarz() {
 //Nowy wektor długości 1 pod kątem 45 stopni
 PVector v = PVector.fromAngle(radians(45));
 ```
-- ```Processing PVector v = PVector.add(v1, v2);``` 
-- `v1.add(v2);`
-- `v.mult(30);`
-- `v.div(3);`
-- `v.rotate();`
-- `v.x, v.y`
+- `PVector v = PVector.add(v1, v2);` wektor v to suma wektorów v1 i v2. Uwaga po operacji dodawania v1 i v2 są nie zmienione. 
+- `v1.add(v2);` dodanie wektora v1 i v2. Po operacji v1 staje się sumą v1 i v2, natomiast v2 pozostaje niezmieniony 
+- `v.mult(30);` wydłuża 30ci razy wektor v 
+- `v.div(3);` skraca 3rzy razy wektor v
+- `v.rotate(k);` obraca o kąt k (k w radianach) wektor v 
+- `v.x` wyciąga z wektora współrzędną x, czyli wymiar wektora w osi x, albo inaczej rzut wektora na oś x. W praktyce stosujemy jak rysujemy końce wektorów punktami, albo linie łączące te końce.
 - **Rekurencja** jako sposób na tworzenie struktur samo-osobnych przypominających fraktale.
 - Jak działa wywołanie rekurencyjne na prostym przykładzie koła w kole, a potem w stronę fraktali (koła z kołami w kołach - WOW!).
 ```Processing
@@ -55,7 +55,7 @@ void kolo_w_kole(float x, float y, float d) {
 } 
 ```
 
-- Pierwszy poziom krzywej Kocha za pomocą PVector.
+- Pierwszy poziom krzywej Kocha za pomocą PVector. Dzielimy, obracamy i dodajemy wektory. Wow i wychodzi z tego krzywa Kocha. 
 
 
 ## Praca domowa
@@ -83,11 +83,11 @@ Ułożyć krzywą Kocha tek by powstał płatek Kocha. Narazie zostajemy na pier
 
 Rekurencja koła w kołach podwójnie rozgałęzione z poziomami rekurencji pokolorowanymi przez powiązanie Hue z poziomem.
 
-![](e04_kolo_w_kole_rekurencja_fraktal_poziony)
+![](e04_kolo_w_kole_rekurencja_fraktal_poziony.png)
 
 Rekurencja koła w kołach podwójnie rozgałęzione z ponumerowanymi rysunkami kół w kolejności ich rysowania. Numer rysunku staje się jego kolorem przez powiązanie z Hue.
 
-![](e04p01_kolo_w_kole_rekurencja_fraktal_pokolei)
+![](e04p01_kolo_w_kole_rekurencja_fraktal_pokolei.png)
 
 Rekurencja koła w kołach potrójnie rozgałęzione z poziomami rekurencji pokolorowanymi przez powiązanie Hue z poziomem. 
 
@@ -95,8 +95,8 @@ Rekurencja koła w kołach potrójnie rozgałęzione z poziomami rekurencji poko
 
 Rekurencja koła w kołach poczwórnie rozgałęzione z poziomami rekurencji pokolorowanymi przez powiązanie Hue z poziomem. 
 
-![](e06_kolo_w_kole_rekurencja_fraktal_04)
+![](e06_kolo_w_kole_rekurencja_fraktal_04.png)
 
-Krzywa Kocha pierwszy poziom rekurencji. 
+Krzywa Kocha pierwszy poziom rekurencji. Dzielimy, obracamy i dodajemy wektory. Wow i wychodzi z tego krzywa Kocha. 
 
 ![](e09_krzywa_kocha.png)
