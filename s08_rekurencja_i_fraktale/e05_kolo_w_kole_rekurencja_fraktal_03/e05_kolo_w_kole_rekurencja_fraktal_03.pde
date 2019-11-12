@@ -6,7 +6,7 @@ void setup() {
   colorMode(HSB);
   background(0);
   strokeWeight(0.001);
-  kolo_w_kole(500, 250, 450, 0);
+  kolo_w_kole(500, 350, 450, 0);
   endRecord();
 }
 
