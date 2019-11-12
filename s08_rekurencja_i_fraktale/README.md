@@ -30,7 +30,8 @@ void twarz() {
 }
 ``` 
 - **PVector** czyli wektory w Processing 
-- ```
+- Twozenie nowego wektora o długości jeden i określonym kierunku
+```Processing
 //Nowy wektor długości 1 pod kątem 45 stopni
 PVector v = PVector.fromAngle(radians(45));
 ```
