@@ -1,4 +1,4 @@
-# Sezon 02 - Podstawy
+# Sezon 02 - Podstawy i zmienne oraz szum
 
 ## Processing
 - kolor tłą, obrysu oraz przezroczystość
