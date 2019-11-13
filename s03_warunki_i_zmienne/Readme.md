@@ -1,4 +1,4 @@
-# Sezon 03 
+# Sezon 03 - zmienne
 - Powtórka `draw()` i `setup()`
 - Zmienne raz jeszcze
 - Typ zmiennych `float`
