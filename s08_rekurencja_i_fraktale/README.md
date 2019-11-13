@@ -63,6 +63,11 @@ Ułożyć krzywą Kocha tek by powstał płatek Kocha. Narazie zostajemy na pier
 
 ## Materiały dodatkowe
 
+**Twarz:**
+- [Proporcje twarzy osoby podczas rysowania portretu](https://pl.puntomarinero.com/the-proportions-of-a-personand/)
+
+![](https://puntomarinero.com/images/the-proportions-of-a-personand_1.jpg)
+
 **Rekurencja i fraktale:**
 - [The Nature of Code Chapter 8. Fractals](https://natureofcode.com/book/chapter-8-fractals/)
 - [8.1: Fractals - The Nature of Code video](https://www.youtube.com/watch?v=-wiverLQl1Q)
@@ -73,7 +78,7 @@ Ułożyć krzywą Kocha tek by powstał płatek Kocha. Narazie zostajemy na pier
 - [1.1: Vectors - The Nature of Code video](https://youtu.be/mWJkvxQXIa8)
 - [PVector](https://processing.org/tutorials/pvector/)
 
-**Książki**
+**Książki:**
 - [Granice chaosu: fraktale część 1, Heinz-Otto Peitgen , Dietmar Saupe , Hartmunt Jürgens](https://merlin.pl/granice-chaosu-fraktale-czesc-1-hartmunt-jrgens-heinz-otto-peitgen-dietmar-saupe/1327261/)
 - [Granice chaosu. Fraktale - część 2](https://merlin.pl/granice-chaosu-fraktale-czesc-2-hartmut-jurgens-heinz-otto-peitgen-dietmar-saupe/1757950/)
 
