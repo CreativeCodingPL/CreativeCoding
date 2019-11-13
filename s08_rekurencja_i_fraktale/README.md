@@ -91,9 +91,9 @@ Rekurencja koła w kołach podwójnie rozgałęzione z ponumerowanymi rysunkami 
 
 - Jak powyżej, jedyne co zmieniliśmy to kolejność wywołań rekurencyjnych 
 z:
-— rysuj siebie, rysuj lewe koło, rysuj prawe koło,
+-- rysuj siebie, rysuj lewe koło, rysuj prawe koło,
 na:
-— rysuj lewe koło, rysuj siebie, rysuj prawe koło
+-- rysuj lewe koło, rysuj siebie, rysuj prawe koło
 
 ![](e04p02_kolo_w_kole_pokolei_inna_kolejnosc_wywolan_rekurencji.png)
 
