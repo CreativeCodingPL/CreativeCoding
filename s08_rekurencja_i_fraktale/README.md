@@ -66,7 +66,7 @@ Ułożyć krzywą Kocha tek by powstał płatek Kocha. Narazie zostajemy na pier
 **Twarz:**
 - [Proporcje twarzy osoby podczas rysowania portretu](https://pl.puntomarinero.com/the-proportions-of-a-personand/)
 
-![](https://puntomarinero.com/images/the-proportions-of-a-personand_1.jpg)
+![twarz](https://puntomarinero.com/images/the-proportions-of-a-personand_1.jpg)
 
 **Rekurencja i fraktale:**
 - [The Nature of Code Chapter 8. Fractals](https://natureofcode.com/book/chapter-8-fractals/)
