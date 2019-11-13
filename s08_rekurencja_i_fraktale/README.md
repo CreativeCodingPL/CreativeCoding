@@ -95,7 +95,7 @@ z:
 na:
 — rysuj lewe koło, rysuj siebie, rysuj prawe koło
 
-![](e04p02_kolo_w_kole_pokolei_inna_kolejnosc_wywolan_rekurencji)
+![](e04p02_kolo_w_kole_pokolei_inna_kolejnosc_wywolan_rekurencji.png)
 
 Rekurencja koła w kołach potrójnie rozgałęzione z poziomami rekurencji pokolorowanymi przez powiązanie Hue z poziomem. 
 
