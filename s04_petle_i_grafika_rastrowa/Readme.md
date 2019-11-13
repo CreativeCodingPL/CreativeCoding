@@ -1,4 +1,4 @@
-# Sezon 04 - pętle i obrazy
+# Sezon 04 - pętle i grafika rastrowa
 - `fullScreen();` bez okna na całym ekranie
 - `width`, `height` wymiary okna lub ekranu
 - Losowość powtórka
