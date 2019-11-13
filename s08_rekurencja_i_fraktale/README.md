@@ -89,6 +89,14 @@ Rekurencja koła w kołach podwójnie rozgałęzione z ponumerowanymi rysunkami 
 
 ![](e04p01_kolo_w_kole_rekurencja_fraktal_pokolei.png)
 
+- Jak powyżej, jedyne co zmieniliśmy to kolejność wywołań rekurencyjnych 
+z:
+— rysuj siebie, rysuj lewe koło, rysuj prawe koło,
+na:
+— rysuj lewe koło, rysuj siebie, rysuj prawe koło
+
+![](e04p02_kolo_w_kole_pokolei_inna_kolejnosc_wywolan_rekurencji)
+
 Rekurencja koła w kołach potrójnie rozgałęzione z poziomami rekurencji pokolorowanymi przez powiązanie Hue z poziomem. 
 
 ![](e05_kolo_w_kole_rekurencja_fraktal_03.png)
