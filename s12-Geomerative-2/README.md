@@ -6,7 +6,7 @@ Co Was zainspirowało? Jakie nowe pomysły pojawiły się po tym warsztacie?
 Prace będą wystawione w [ramkach](http://www.ikea.com/pl/pl/catalog/products/10151017/#/20151012). Ponieważ plakaty mają być generatywne, to prosimy o udokumentowanie w postaci wideo procesu generowania kodem.
 
 ## Wymagania do pracy
-- Nieprzekraczalny termin oddania pracy to **20.12.18**.
+- Nieprzekraczalny termin oddania pracy to **19.12.19**.
 
 - Praca powinna składać się z dwóch części:
 
