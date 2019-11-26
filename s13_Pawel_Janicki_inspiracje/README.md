@@ -1,8 +1,9 @@
-# Paweł Janicki - inspiracje + przepracowanie pomysłów na dyplomy 
+# Paweł Janicki
+## inspiracje + przepracowanie pomysłów na dyplomy 
 
 Proszę przygotujcie się według instrukcji Pawła umieszczonej w liście od niego poniżej:
 
-## Koleżanki i Koledzy
+### Koleżanki i Koledzy
 
 Ponieważ już niedługo spotkamy się w ramach koncepcyjnego warsztatu które będę miał przyjemność poprowadzić chciałbym Wam przekazać kilka istotnych informacji oraz poprosić Was o przygotowanie się do uczestnictwa w spotkaniu w sposób, który zaraz opiszę.
 
