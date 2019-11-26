@@ -1,4 +1,4 @@
-# Sezon 14 - Geomerative część 1
+# Sezon 11 - Geomerative część 1
 
 ## Processing
 - Geomerative: importowanie biblioteki
@@ -9,7 +9,7 @@
 - Geomerative: znjdowanie centrum kształtu i rotacja ```napis.children[0].rotate(PI/20, napis.children[0].getCenter());```
 - Geomerative: znajdowanie punktów na orysach kształtów liter (RShape) ```points = napis.getPoints()```
 - Geomerative: rysowanie linii na podstawie punktów, różne warianty
-- Dodatkowo: ```noise()``
+- Dodatkowo: ```noise()```
 - Dodatkowo: czym jest specjalna wartość ```null``` i kiedy/jak go używać
 
 ## Zadanie domowe
