@@ -16,7 +16,9 @@ particles = new ArrayList<PVector>();
 particles.add(p);
 //a tak je pobieramy z indeksu i
 PVector p = particles.get(i);
- //a tak sprawdzamy rozmiar tablicy listy
+//a tak usuwamy 
+particles.remove(i);
+//a tak sprawdzamy rozmiar tablicy listy
 if(particles.size()>0) …
 
 ```
