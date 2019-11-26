@@ -3,7 +3,7 @@
 WIĘKSZA praca własna. Podsumowanie waszych umiejętności po ukończeniu warsztatu Creative Coding. 
 Co Was zainspirowało? Jakie nowe pomysły pojawiły się po tym warsztacie?
 
-Prace będą wystawione w [ramkach](http://www.ikea.com/pl/pl/catalog/products/10151017/#/20151012). Ponieważ plakaty mają być generatywne, to prosimy o udokumentowanie w postaci wideo procesu generowania kodem.
+Prace będą wystawione w aluminiowych ramach 50cm x 70 cm. Ponieważ plakaty mają być generatywne, to prosimy o udokumentowanie w postaci wideo procesu generowania kodem.
 
 ## Wymagania do pracy
 - Nieprzekraczalny termin oddania pracy to **19.12.19**.
