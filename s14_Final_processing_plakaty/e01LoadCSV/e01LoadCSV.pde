@@ -1,6 +1,4 @@
-
 Table table;
-
 
 void setup(){
   
