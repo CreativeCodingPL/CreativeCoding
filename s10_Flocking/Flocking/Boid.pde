@@ -3,18 +3,21 @@ class Boid {
   PVector velocity;
   PVector acceleration;
   float r;
+  
   Boid(float x, float y) {
     position = new PVector(x, y);
     acceleration = new PVector(0, 0);
     velocity = new PVector(random(-1, 1), random(-1, 1));
     r = random(3, 10);
   }
+  
   void run(ArrayList<Boid> boids) {
     flock(boids);
     update();
     borders();
     draw();
   }
+  
   void flock (ArrayList<Boid> boids) {
     PVector s = separation(boids);
     PVector a = alignment(boids);
@@ -26,6 +29,7 @@ class Boid {
     acceleration.add(a);
     acceleration.add(c);
   }
+  
   PVector alignment(ArrayList<Boid> boids) {
     PVector sum = new PVector();
     PVector steer = new PVector();
@@ -48,6 +52,7 @@ class Boid {
     }
     return steer;
   }
+  
   PVector separation(ArrayList<Boid> boids) {
     PVector steer = new PVector();
     float count = 0;
@@ -74,6 +79,7 @@ class Boid {
     }
     return steer;
   }
+  
   PVector cohesion (ArrayList<Boid> boids) {
     float neighbordist = 50;
     PVector sum = new PVector(0, 0);   // Start with empty vector to accumulate all positions
