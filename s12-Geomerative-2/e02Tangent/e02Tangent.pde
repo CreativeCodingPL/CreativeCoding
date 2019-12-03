@@ -39,11 +39,19 @@ void draw() {
       RPoint p = paths[i].getPoint( pos );
       RPoint t = paths[i].getTangent( pos );
       
-      float angle = atan2(t.y, t.x) + PI/2;
-      float p2X = 50 * cos(angle);
-      float p2Y = 50 * sin(angle);
+      float angle = atan2(t.y, t.x); //+ PI/2;
+      float p2X = 25 * cos(angle);
+      float p2Y = 25 * sin(angle);
       
       line(p.x - p2X, p.y - p2Y, p.x + p2X, p.y + p2Y);
+      
+      angle = atan2(t.y, t.x) + PI/2;
+      p2X = 25 * cos(angle);
+      p2Y = 25 * sin(angle);
+      
+      line(p.x - p2X, p.y - p2Y, p.x + p2X, p.y + p2Y);
+      
+      
       ellipse( p.x, p.y, 10, 10 );
       
     }
