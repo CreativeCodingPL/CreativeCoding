@@ -8,7 +8,8 @@ void setup(){
   table = loadTable("weather.txt", "header, tsv");
   
   println(table.getRowCount() + " total rows in table");
-
+  
+  //for( int i = 0; i < table.getRowCount(); i ++ )){
   for (TableRow row : table.rows()) {
 
     int year = row.getInt("year");
