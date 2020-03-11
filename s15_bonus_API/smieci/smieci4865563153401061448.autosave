@@ -1,0 +1,17 @@
+JSONObject json;
+
+void setup() {
+
+  json = loadJSONObject("smieci.json");
+  //println(json);
+  JSONObject result = json.getJSONObject("result");
+  JSONArray records = result.getJSONArray("records");
+  println(records.size());
+  for(int i=0;i<records.size();i++){
+    
+    JSONObject record = records.getJSONObject(i);
+    println(record.getString("Nazwa")+" -> " + record.getString("Typ"));
+    
+    //getString("nazwa")
+  }
+}
