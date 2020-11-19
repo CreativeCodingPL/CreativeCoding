@@ -65,7 +65,7 @@ void draw() {
 ### Układ współrzędnych i podstawowe kształty
 
 Opis sposobu działania układu współrzędnych i aspekty dotyczące podstawowych kształtów
-![Układ współrzędnych i podstawowe kształty](https://processing.org/tutorials/drawing/)
+[Układ współrzędnych i podstawowe kształty](https://processing.org/tutorials/drawing/)
 
 Podstawowe kształty
 - `point(x, y)`
@@ -77,13 +77,13 @@ Podstawowe kształty
 ### Użycie biblioteki - VideoExport
 
 Kompletne rozwiązanie do nagrywania, konwertowania i strumieniowania audio i wideo.
-- ![FFmpeg](http://ffmpeg.org)
+- [FFmpeg](http://ffmpeg.org)
 
 Skompilowana wersja dla komputerów Mac
-- ![ffmpeg-mac64](ffmpeg-mac64)
+- [ffmpeg-mac64](ffmpeg-mac64)
 
 Skompilowana wersja dla komputerów Windows
-- ![ffmpeg-win64](ffmpeg-win64)
+- [ffmpeg-win64](ffmpeg-win64)
 
 
 Użycie biblioteki VideoExport
