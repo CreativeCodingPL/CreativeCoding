@@ -26,13 +26,14 @@ void draw(){
   // bo PImage w przeciwienstwie do float czy int nie ma tylko jednej wartości
   // ale cały szereg danych opisujacych bitmapę - wysoskosc, szerokosc, pixele etc...
   
-  // centrownie obrazka wzgledem srodka okna - od polowy wymiaru okna odejmujemy polowe aktualnego wymiaru obrazka
+  blendMode( BLEND ); // standardowy tryb mieszania kolorow
+  tint(255, 127 ); // zmiana przezroczystoci obrazka bez modyfikacji koloru - pierwszy parametr 255, drugi od 0 do 255
   image( obrazek, width/2 - szerokoscObrazka/2, height/2 - wysokoscObrazka/2, szerokoscObrazka, wysokoscObrazka );
   
-  //alternatywny sposob pozycjoniowania obrazka wzgledem jego srodka:
-  //imageMode( CENTER );
-  //image( obrazek, width/2, height/2, szerokoscObrazka, wysokoscObrazka );
-  //tylko trzeba pamietac o przywroceniu domyslengo sposobu jesli chcemy dalej
-  //rozmieszczac tradycyjnie - via imageMode( CORNER );
+  blendMode( ADD ); // addytywny tryb mieszania kolorow - wiecej na: https://processing.org/reference/blendMode_.html
+  tint(255,255); // tu wracamy do rysowana z pelna nieprzezroczystoscia
+  image( obrazek, width/2 - 100, height/2 - 100, szerokoscObrazka, wysokoscObrazka );
+  
+
 
 }
