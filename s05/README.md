@@ -2,6 +2,15 @@
 
 ## Processing
 
+### Odrobaczanie
+- Inaczej debugowanie. 
+- Pierwszy bug :)
+[Bug wiki](https://pl.wikipedia.org/wiki/Błąd_(informatyka))
+![](https://upload.wikimedia.org/wikipedia/commons/f/ff/First_Computer_Bug%2C_1945.jpg)
+- Debugowanie w Processing
+![](bug.png)
+- Podczas debugowania można podglądać zawartość zmiennych
+![](podglad.png)
 
 ### Tablice
 - Tablice, dzięki nim możemy przechowywać w jednej zmiennej więcej niż jeden element np. wiele liczb, kolorów itd.
