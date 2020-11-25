@@ -76,6 +76,10 @@ Stwórzcie własny efekt wizualny sortując pixele. Udanego sortowania!
 
 ## Ekrany 
 
+Sortowanie tablicy prezentowane wizualnie. Długość linii odpowiada wielkości liczby na danej pozycji. Kolejne wiersze to kolejne pozycji w tablicy.
+
+![](e1_tablice_sort_wizual)
+
 Sortowanie pikseli - średnia sąsiednich kolorów. 
 
 ![](e11_SortowaniePikseli01.png)
@@ -88,21 +92,13 @@ Sortowanie pikseli - mniejszy kolor z dwóch końców tablicy
 
 ![](e13_SortowaniePiksel_min.png)
 
-Sortowanie pikseli - większy kolor z dwóch końców tablicy 
-
-![](e14_SortowaniePiksel_max.png)
-
-Sortowanie pikseli - zamiana miejscami (swap) sąsiednich pikseli 
-
-![](e15_SortowaniePiksel_swap.png)
-
 Sortowanie pikseli - zamiana miejscami (swap) pikseli w losowym odstępie   
 
-![](e17_SortowaniePiksel_swap_rand_odstep.png)
+![](e4_SortowaniePiksel_swap_rand_odstep.png)
 
-Sortowanie pikseli - zamiana miejscami (swap) pikseli z dwóch końców tablicy na podstawie porównania ich barwy
+Sortowanie pikseli - zamiana miejscami (swap) pikseli na podstawie porównania szafowych B i R
 
-![](e19_SortowaniePiksel_if_hue.png)
+![](e5_SortowaniePiksel_if_blue_red_sasiedzi)
 
 
 
