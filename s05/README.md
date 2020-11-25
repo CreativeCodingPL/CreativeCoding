@@ -98,7 +98,7 @@ Sortowanie pikseli - zamiana miejscami (swap) pikseli w losowym odstępie
 
 Sortowanie pikseli - zamiana miejscami (swap) pikseli na podstawie porównania szafowych B i R
 
-![](e5_SortowaniePiksel_if_blue_red_sasiedzi)
+![](e5_SortowaniePiksel_if_blue_red_sasiedzi.png)
 
 
 
