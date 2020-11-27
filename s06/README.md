@@ -19,3 +19,7 @@
 ## Ekrany
 
 ![](e04.png)
+
+## Zadanie domowe
+
+Spróbować wygenerować którąś z kompozycji Wall Drawings opisanych przez Sol'a LeWitt'a (plik instructions.json z repozytorium [Solving Sol](https://github.com/wholepixel/solving-sol))
