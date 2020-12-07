@@ -65,7 +65,7 @@ void draw() {
 ### Układ współrzędnych i podstawowe kształty
 
 Opis sposobu działania układu współrzędnych i aspekty dotyczące podstawowych kształtów
-[Układ współrzędnych i podstawowe kształty](https://processing.org/tutorials/drawing/)
+- [Układ współrzędnych i podstawowe kształty](https://processing.org/tutorials/drawing/)
 
 Podstawowe kształty
 - `point(x, y)`
