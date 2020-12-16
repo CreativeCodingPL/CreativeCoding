@@ -19,7 +19,6 @@
 - [Transformacje 2D - tutorial](https://processing.org/tutorials/transform2d/)
 
 
-
 ## Zadanie domowe
 
 Wygenerować las skladajacy sie z fraktalnych drzew i wzbogacic funkcje rysujaca drzewa o kolor, zmienna grubosc galezi, randomizacje kątów etc.
