@@ -17,7 +17,6 @@ point(width - frameCount, height * 0.66);
 
 ```
 
-
 ### zmienne wbudowane w Procesing:
 
 - `frameCount` to zmienna licznik klatek, po każdej klatce animacji zwiększa się o jeden.
@@ -25,7 +24,6 @@ point(width - frameCount, height * 0.66);
 - `mouseY` to aktualna pozycja kursora myszy w pionie.
 - `width` to długość okna (w poziomie, inaczej liczba kolumn).
 - `height` to wysokość okna (w pionie, inaczej liczba rzędów).
-
 
 ### instrukcje:
 - `if()` sprawdza podany warunek (lub warunki)
