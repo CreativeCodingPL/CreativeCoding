@@ -18,6 +18,7 @@
 
 ## Ekrany
 
+Efekt końcowy 
 ![](e04.png)
 
 ## Zadanie domowe
