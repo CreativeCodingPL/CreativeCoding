@@ -1,4 +1,4 @@
-# Sezon 12 - Geomeriative
+# Sezon 12 - Geomerative
 
 ## Processing
 
