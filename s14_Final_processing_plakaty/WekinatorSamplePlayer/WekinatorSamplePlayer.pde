@@ -13,7 +13,6 @@ void setup() {
   size(200, 200);
   
   oscP5 = new OscP5(this,12000); 
-  
   files = new ArrayList<SoundFile>();
   
   for( int i = 0; i < 4; i++ ){
