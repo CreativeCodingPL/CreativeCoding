@@ -14,6 +14,10 @@ boolean first = true;
 int camWidth = 640;
 int camHeight = 360;
 
+// !!! - DO ZMIANY W ZALEŻNOŚĆI OD KONFIGURACJI KAMER NA DANYM KOMPUTERZE
+int camID = 39;
+// 
+
 int boxWidth = camWidth/10;
 int boxHeight = camHeight/10;
 
@@ -46,7 +50,7 @@ void setup() {
       println(i, " > ", cameras[i]);
     } 
 
-   video = new Capture(this, cameras[39]);
+   video = new Capture(this, cameras[camID]);
     
     // Start capturing the images from the camera
     video.start();
