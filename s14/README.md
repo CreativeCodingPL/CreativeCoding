@@ -43,3 +43,7 @@ nazwa musi rozpoczynać się od "/", reszta jest dowolna, czasem przyjmuje forme
 ## Inspiracje
 
 - [Przykłady wykorzystania WEKINATORA ](http://www.wekinator.org/example-projects/)
+
+## Praca domowa
+
+Wykorzystać któryś ze sketchy z inputami - pozycja kwadratu, rozpoznawanie mowy, obraz z kamery do własnego sketcha reagujacego an te dane via Wekinator, np. "sterowanie pedzlem" poprzez glos, lub ruch "w kamerze" etc...
