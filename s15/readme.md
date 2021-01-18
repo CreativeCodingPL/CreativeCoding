@@ -27,6 +27,7 @@ https://distill.pub/2019/activation-atlas/
 
 ## Co na serwerach googla kodowaliśmy 
 
+- [Get started with Google Colaboratory - video](https://youtu.be/inN8seMm7UI)
 - Welcome To Colaboratory
 Colaboratory, or "Colab" for short, allows you to write and execute Python in your browser, with:
 — Zero configuration required;
