@@ -13,6 +13,3 @@ Będziemy przekonywać, że kodowanie jest narzędziem niezbędnym. Dla niekoduj
 
 Opowiemy o emergencji, chaosie, symulowaniu procesów społecznych, interaktywnej wizualizacji zmieniającej dane w wiedzę. Pokażemy, że efekt działania kodu może być dziełem sztuki.  Przedstawimy kodowanie jako sposób myślenia i myślenie w kodzie jako „wzmacniacz zdolności umysłowych”.
 
-## [Creative Coding - wprowadzenie - wykład](CCwprowadenie2020.pdf)
-
-## [Manifest “Materia kodu”](Materia_Kodu.pdf)
