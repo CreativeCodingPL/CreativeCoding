@@ -34,4 +34,4 @@ https://processing.org/tutorials/drawing/
 
 Mój pierwszy piksel `point(50, 50);`
 
-![pierwszy piksel](e01_mojPierwszyPixel.png)
+![pierwszy piksel](e00_mojPierwszyPixel.png)
