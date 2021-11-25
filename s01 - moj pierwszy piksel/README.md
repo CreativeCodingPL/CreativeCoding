@@ -1,11 +1,5 @@
 # Sezon 01 - mój pierwszy piksel
 
-## Prezentacja
-
-- Każdy może kodować!
-- Szkoła i efekt [wyuczonej bezradności](https://pl.wikipedia.org/wiki/Wyuczona_bezradność)
-- Kod w sztuce, nauce, designie, społeczeństwie
-
 ## Processing
 
 - punkty, kolor i grubość obrysu, linia, prostokąt, elipsa, wypełnienie.
