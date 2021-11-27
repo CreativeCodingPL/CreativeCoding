@@ -27,8 +27,8 @@ void keyPressed() {
 ```Processing
 if(frameCount == 180) 
 {
-  // to co napiszemy tutaj, 
-  // wykona się jak numer klatki będzie równy 180
+  // to co napiszemy tu, wykona się 
+  // jeżeli numer klatki będzie równy 180
 }
 // to co napiszemy tu już nie podlega powyższemu warunkowi
 ```
