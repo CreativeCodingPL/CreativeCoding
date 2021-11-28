@@ -63,8 +63,12 @@ Stworzyć pierwsze generatywne animowane „dzieło” z użyciem instrukcji `no
 
 ## Materiały pomocnicze
 
+- [Learning Processing - świetny zestaw lekcji wideo](https://thecodingtrain.com/Courses/learning-processing/)
 - [Dokumentacja Processing](https://processing.org/reference)
-- [Jak działa noise by Daniel Shiffman](https://natureofcode.com/book/introduction/) 
+- [Jak działa noise. Daniel Shiffman in The Nature of Code](https://natureofcode.com/book/introduction/) 
+- [TRON film z 1982 do którego wymyślono noise](https://www.imdb.com/title/tt0084827/)
+- [A collection of videos about noise algorithms](https://thecodingtrain.com/learning/noise/)
+- [ Introduction - Git and GitHub for Poets](https://youtu.be/BCQHnlnPusY)
 
 ## Ekrany
 
