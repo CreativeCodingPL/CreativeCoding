@@ -6,6 +6,6 @@ void setup() {
 }
 
 void draw() {
-  float R = 20*cos(frameCount*0.5) + 20*sin(frameCount*0.5);
+  float R = 100+20*cos(frameCount*0.5) + 20*sin(frameCount*0.5);
   point(250+R*cos(frameCount*0.05), 250+R*sin(frameCount*0.05));
 }

@@ -15,6 +15,6 @@ void draw() {
       set(x, y, c);
     }
   }
-  z = z + 0.001;
+  z = z + 0.003;
   println(frameRate);
 }
