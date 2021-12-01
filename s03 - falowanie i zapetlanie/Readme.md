@@ -38,7 +38,7 @@ for(int x = 0; x < width; x = x + 20)
 - `sin(k);` - wartość sinusa dla konta k wyrażonego w radianach (wielokrotność liczby PI, gdzie PI = 180 stopni)
 - `cos(k);` jak powyżej dla cosinusa. 
 - `noise(x,y,z)` jak noise z sezonu 02, ale w wersji 3D. Oglądaliśmy chmury plasterek po plasterku.  
-`noiseDetail(3);` ile nosiu w noise. Najprościej tłumacząc jak złożony jest noise, czym większa liczba tym więcej składowych nakładających się na siebie (duży ruch a na nim mniejszy a na nim jeszcze mniejszy itd.)
+- `noiseDetail(3);` ile nosiu w noise. Najprościej tłumacząc jak złożony jest noise, czym większa liczba tym więcej składowych nakładających się na siebie (duży ruch a na nim mniejszy a na nim jeszcze mniejszy itd.)
 
 ## Zadanie domowe
 
@@ -48,6 +48,8 @@ Grafika wygenerowana za pomocą zapętlania w zapętleniu (for for) falowania (s
 
 - [Beautiful Trigonometry - sin, cos, ale też tan stan - polecam](https://youtu.be/snHKEpCv0Hk)
 - [Noise 3D](https://processing.org/examples/noise3d.html)
+- [For Loop - Processing Tutorial](https://youtu.be/h4ApLHe8tbk)
+- [If, Else If, Else - Processing Tutorial](https://youtu.be/mVq7Ms01RjA)
 
 ## Ekrany
 
