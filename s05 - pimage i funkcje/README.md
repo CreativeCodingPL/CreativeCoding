@@ -8,7 +8,7 @@
 PImage obrazek;
 ```
 
-- Ładowanie obrazka (musi być w podkatalogu katalogu data):
+- Ładowanie obrazka (musi być w podkatalogu  data):
 
 ```Processing
 PImage obrazek;
@@ -23,8 +23,7 @@ void setup(){
 ```Processing
 
 void draw(){
-	// podstawowa wersja funkcji image - 
-    nazwa zmiennej typu PImage i pozycja x, y
+	// podstawowa wersja funkcji image - nazwa zmiennej typu PImage i pozycja x, y
 	image( obrazek, 100, 100 );
     
     // wersja bardziej rozbudowana ustawiajaca wymiary obrazka:
