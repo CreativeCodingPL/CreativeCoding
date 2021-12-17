@@ -7,14 +7,14 @@
 ```Processing
 
 // inicjalizacja tablicy przez podanie konkretnych wartości
-float[] tablica1 = { 0.1, 5.2, 4.4, 10.0 }
-int[] tablica2 = { 1, 4, 5, 6, 20 }
+float[] tablica1 = { 0.1, 5.2, 4.4, 10.0 };
+int[] tablica2 = { 1, 4, 5, 6, 20 };
 
 // inicjalizacja tablicy przez wypelnienie jejj okreslona iloscia wartości domyślnych ( np. 0 dla int i float )
-float[] tablica2 = new float[100]
+float[] tablica2 = new float[100];
 
 //analogicznie wyglada inicjalizacja tablicy obiektów
-PImage[] obrazki = new PImage[10]
+PImage[] obrazki = new PImage[10];
 //ale pamietajmy że w przypadku tablicy obiektów nie dochodzi
 //do wypelnienia wartościami domyślnymi (bo takowe nie istnieja)
 //tylko rezerwujemy pamiec, zawsze zatem musimy zainicjalizowac
