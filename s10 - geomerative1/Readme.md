@@ -73,7 +73,7 @@ void draw(){
 
 - Normalna - to linia prosta przecinajaca krzywą w danym jej punkcie pod kątem prostym - normalna jest zawsze prostopadła do stycznej
 
-![normalna](__assets__/styczna.gif)
+![normalna](__assets__/normalna.png)
 
 ## Materiały pomocnicze
 
