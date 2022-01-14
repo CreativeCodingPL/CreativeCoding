@@ -79,3 +79,6 @@ void draw(){
 
 - [Geomerative](http://www.ricardmarxer.com/geomerative/)
 - [Dokumentacja Geomerative](http://www.ricardmarxer.com/geomerative/documentation/index.html)
+
+## Praca domowa
+Rozwinac ostatnie przykąłdy z zajec z wykorzystaniem `getTangent`, `getPoint` lub polygonizera, można np. dodc interakcje z myszą, dźwiękiem (z poprzednich zajec). Poeksperymentować z rysowaniem linii pomiedzy radomowymi punktami na ściezkach liter. Trochę inspiracji tutaj - https://pl.pinterest.com/search/pins/?q=generative%20typography
