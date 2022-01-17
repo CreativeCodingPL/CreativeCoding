@@ -8,6 +8,9 @@ void settings() {
 
 void setup() {
   Grafika = loadImage("grafika.jpg");
+  surface.setResizable(true);
+  surface.setSize(Grafika.width, Grafika.height);
+  surface.setResizable(false);  
 }
 
 void draw() {

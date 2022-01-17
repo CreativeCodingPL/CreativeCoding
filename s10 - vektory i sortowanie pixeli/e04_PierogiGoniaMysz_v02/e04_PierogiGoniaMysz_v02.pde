@@ -1,4 +1,3 @@
-
 ArrayList<Pierog> pierogi = new ArrayList<Pierog>();
 
 void setup() {
@@ -9,7 +8,10 @@ void setup() {
 }
 
 void draw() {
-  background(255);
+  fill(255, 30);
+  noStroke();
+  rect(0,0,width,height);
+  stroke(0);
   
   fill(250);
   ellipse(mouseX, mouseY, 70, 70);
