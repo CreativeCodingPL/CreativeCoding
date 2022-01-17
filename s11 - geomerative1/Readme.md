@@ -1,20 +1,20 @@
-# Sezon 10 - Geomerative pt. 1
+# Sezon 11 - Geomerative pt. 1
 
-Prezentacja wykorzystania bibiloteki Geomerative
+Prezentacja wykorzystania biblioteki Geomerative
 do bardziej zaawansowanych operacji na kształtach wektorowych w kontekście typografii.
 
 ## Poruszone zagadnienia:
 
-- instalowanie zewnętrzenej biblioteki
+- instalowanie zewnętrznej biblioteki
 - intro do Geomerative
-- stworzenie wektorowego ksztaltu na podstawie tekstu
-- dekonstrukcja tekstu na skladowe - litery, kształty, scieżki, punkty
+- stworzenie wektorowego kształtu na podstawie tekstu
+- dekonstrukcja tekstu na składowe - litery, kształty, ścieżki, punkty
 - obliczanie punktu na ścieżce
 - styczne i normalne ścieżek
 
 ### GEOMERATIVE
 
-Nalezy pamietać zaimportowaniu oraz zainicjalizowaniu biblioteki w setup.
+Należy pamietać zaimportowaniu oraz zainicjalizowaniu biblioteki w setup.
 
 ```Processing
 import geomerative.*; // import biblioteki
