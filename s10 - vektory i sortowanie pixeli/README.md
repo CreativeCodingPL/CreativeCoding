@@ -18,7 +18,7 @@ PVector v = new PVector(radians(45));
 - `v.x` wyciąga z wektora współrzędną x, czyli wymiar wektora w osi x, albo inaczej rzut wektora na oś x. W praktyce stosujemy jak rysujemy końce wektorów punktami, albo linie łączące te końce.
 
 
-**Bonus.** Obejście problem skasowania okra do rozmiaru wgranej grafiki. 
+**Bonus.** Rozwiązanie problemu skalowania okna do rozmiaru wgranej grafiki. 
 
 ```Processing
   Grafika = loadImage("grafika.jpg");
