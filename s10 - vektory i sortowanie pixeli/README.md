@@ -22,9 +22,7 @@ PVector v = new PVector(radians(45));
 
 ```Processing
   Grafika = loadImage("grafika.jpg");
-  surface.setResizable(true);
-  surface.setSize(Grafika.width, Grafika.height);
-  surface.setResizable(false); 
+  this.surface.setSize(Grafika.width, Grafika.height);
 ```
 
 ## Materiały dodatkowe
