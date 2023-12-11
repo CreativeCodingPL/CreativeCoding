@@ -124,3 +124,39 @@ function draw() {
 function keyPressed() {
   saveGif('pepe.gif', 2);
 } 
+
+// kod 07 =========================
+function setup() {
+    createCanvas(600, 500);
+    frameRate(60);
+    pixelDensity(1);
+    img = loadImage('pepe.jpg');
+  }
+  //zamienia pixel na pozycji i z pixelem na pozycji j w podanje grafice g
+  //zamienia caly piksel, czyli wszyskie skladowe RGBA. 
+  function zamienPiksele(i, j, g) {
+    R = g.pixels[i];
+    G = g.pixels[i+1];
+    B = g.pixels[i+2];
+    A = g.pixels[i+3];
+    g.pixels[i] = g.pixels[j];
+    g.pixels[i+1] = g.pixels[j+1];
+    g.pixels[i+2] = g.pixels[j+2];
+    g.pixels[i+3] = g.pixels[j+3];
+    g.pixels[j] = R;
+    g.pixels[j+1] = G;
+    g.pixels[j+2] = B;
+    g.pixels[j+3] = A;
+  }
+  // Sortowanie pixeli, czyli zamienianie ich miejscami.
+  // Ciekawa technika dajace wyjatkowe efekty dla grafiki rastrowej.
+  function draw() {
+    img.loadPixels();
+    for (i = 0; i < img.pixels.length-10; i+=4) {
+      if(img.pixels[i] > img.pixels[i+4])
+          zamienPiksele(i+1, i+5, img);
+    }
+    img.updatePixels();
+    image(img, 0, 0);
+  }
+  
